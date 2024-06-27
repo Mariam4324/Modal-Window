@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  transition: 0.4s all;
+  border-radius: 10px;
+  background: lightblue;
+  border: none;
+  padding: 10px;
+}
+
+button:hover {
+  background: lightcoral;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+  padding: 10px;
+  outline: none;
+}
+
+label {
+  cursor: pointer;
+}

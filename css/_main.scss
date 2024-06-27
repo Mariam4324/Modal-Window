@@ -1,0 +1,38 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  background: rgba(211, 211, 211, 0.63);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  &__window {
+    margin: 100px auto 0;
+    background: white;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 320px;
+    padding: 20px;
+  }
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  &__item {
+    cursor: pointer;
+  }
+
+  &__btn {
+    margin-top: 10px;
+  }
+}
+
+.open {
+  margin: 50px auto 0;
+}
